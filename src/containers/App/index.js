@@ -19,7 +19,7 @@ class App extends Component {
         <About />
         <Skills />
         <Projects />
-        {/* <Contact /> */}
+        <Contact />
       </div>
     );
   }
