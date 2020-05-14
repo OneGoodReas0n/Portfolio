@@ -1,0 +1,32 @@
+@import '../../../styles/colors';
+
+.about{
+   padding: 120px 0;
+   background-color: $color-primary;
+
+   .about__body{
+      width: 60%;
+      margin: 60px auto;
+   }
+
+   .about__text{
+      text-align: start;
+      font-family: 'Ubuntu';
+      font-size: 1.8rem;
+      font-weight: 300;
+      color:$color-blank-white;
+      line-height: 2.4rem;
+   }
+
+   .purple{
+      color:$color-peach;
+   }
+
+   .dark-blue{
+      color:$color-dark-blue;
+   }
+
+   .light-blue{
+      color:$color-light-blue;
+   }
+}
