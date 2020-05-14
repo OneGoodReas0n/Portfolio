@@ -1,0 +1,13 @@
+<svg width="160" height="131" viewBox="0 0 160 131" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="32.7852" y="1.47171" width="125.821" height="23.8627" rx="11.9313" fill="#EFEFED" stroke="#EFEFED" stroke-width="1.33112"/>
+<rect x="32.7852" y="53.516" width="125.821" height="23.8627" rx="11.9313" fill="#EFEFED" stroke="#EFEFED" stroke-width="1.33112"/>
+<rect x="32.7852" y="105.56" width="125.821" height="23.8627" rx="11.9313" fill="#EFEFED" stroke="#EFEFED" stroke-width="1.33112"/>
+<line y1="65.7242" x2="52.9801" y2="65.7242" stroke="#EFEFED" stroke-width="3.99335"/>
+<path d="M61.4569 13.3023H8.77472C5.09894 13.3023 2.11914 16.2821 2.11914 19.9579V111.453C2.11914 115.129 5.09894 118.109 8.77471 118.109H61.4569" stroke="#EFEFED" stroke-width="3.99335"/>
+<ellipse cx="50.861" cy="13.3023" rx="5.29801" ry="5.03876" fill="#060606"/>
+<ellipse cx="50.861" cy="65.7054" rx="5.29801" ry="5.03876" fill="#060606"/>
+<ellipse cx="50.861" cy="118.109" rx="5.29801" ry="5.03876" fill="#060606"/>
+<ellipse cx="72.0529" cy="13.3023" rx="5.29801" ry="5.03876" fill="#060606"/>
+<ellipse cx="72.0529" cy="65.7054" rx="5.29801" ry="5.03876" fill="#060606"/>
+<ellipse cx="72.0529" cy="118.109" rx="5.29801" ry="5.03876" fill="#060606"/>
+</svg>
