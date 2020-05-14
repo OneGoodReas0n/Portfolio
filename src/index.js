@@ -1,6 +1,7 @@
 import ReactDOM from 'react-dom';
 import React from 'react';
-import './style.scss';
+import './styles/style.scss';
+import Home from './containers/Home';
 
 const wrapper = document.getElementById('main');
-ReactDOM.render(<div className="blue">Hello world</div>, wrapper);
+ReactDOM.render(<Home />, wrapper);
