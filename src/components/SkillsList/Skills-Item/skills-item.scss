@@ -1,0 +1,22 @@
+@import '../../../styles/colors';
+
+.skills-item{
+   text-align: center;
+   font-family: 'Ubuntu';
+
+   .skills-item__icon{
+      height: 130px;
+   }
+
+   .skills-item__title{
+      color: $color-blank-white;
+      font-size: 1.6rem;
+      font-weight: 500;
+   }
+
+   .skills-item__feature{
+      color: $color-blank-white;
+      font-size: 1rem;
+      font-weight: lighter;
+   }
+}
