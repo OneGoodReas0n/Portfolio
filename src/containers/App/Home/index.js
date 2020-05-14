@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './home.scss';
-import Navbar from '../../components/Navbar';
-import Greetings from '../../components/Greetings';
+import Navbar from '../../../components/Navbar';
+import Greetings from '../../../components/Greetings';
 
 class Home extends Component {
   constructor() {
