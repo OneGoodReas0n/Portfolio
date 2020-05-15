@@ -1,6 +1,8 @@
 @import '../../../styles/colors';
 
 .about{
+   height: 100vh;
+   box-sizing: border-box;
    padding: 120px 0;
    background-color: $color-primary;
 
