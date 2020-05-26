@@ -1,6 +1,5 @@
 import React from 'react';
 import './projects-list.scss';
-import weatherAppSvg from '../../assets/images/projects/weather-app.svg';
 import virtualKeyboardSvg from '../../assets/images/projects/virtual-keyboard.svg';
 import pixelDrawSvg from '../../assets/images/projects/pixel-draw.svg';
 import cloudSvg from '../../assets/images/projects/cloud.svg';

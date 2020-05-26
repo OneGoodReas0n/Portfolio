@@ -1,13 +1,14 @@
 @import '../../styles/colors';
+@import '../../styles/fonts';
 
-.section-title{
-   text-align: center;
+.section-title {
+  text-align: center;
 
-   .section-title__text{
-      color: $color-blank-white;
-      font-size:2.4rem;
-      font-family: 'Ubuntu';
-      text-transform: uppercase;
-      font-weight: normal;
-   }
+  .section-title__text {
+    @include font-Ubuntu;
+    color: $color-blank-white;
+    font-size: 2.4rem;
+    text-transform: uppercase;
+    font-weight: normal;
+  }
 }

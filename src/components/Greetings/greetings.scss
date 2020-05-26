@@ -1,27 +1,28 @@
 @import '../../styles/colors';
+@import '../../styles/fonts';
 
-.greetings{
-   margin: 180px 0 0 120px;
-   .greetings__text{
-      color:$color-blank-white;
-      user-select: none;
-   }
+.greetings {
+  margin: 180px 0 0 120px;
+  .greetings__text {
+    color: $color-blank-white;
+    user-select: none;
+  }
 
-   .greetings__text_primary{
-      font-family: 'PT Sans', sans-serif;
-      font-size: 3.2rem;
-      font-weight: normal;
-   }
+  .greetings__text_primary {
+    @include font-PT_Sans;
+    font-size: 3.2rem;
+    font-weight: normal;
+  }
 
-   .greetings__text_secondary{
-      font-family:'Ubuntu';
-      font-size: 1.8rem;
-      font-weight: lighter;
-      letter-spacing: 1px;
-   }
+  .greetings__text_secondary {
+    @include font-Ubuntu;
+    font-size: 1.8rem;
+    font-weight: lighter;
+    letter-spacing: 1px;
+  }
 
-   .greetings__group{
-      display: flex;
-      margin-top: 40px;
-   }
+  .greetings__group {
+    display: flex;
+    margin-top: 40px;
+  }
 }

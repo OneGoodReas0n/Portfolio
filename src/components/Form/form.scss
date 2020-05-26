@@ -1,34 +1,36 @@
 @import '../../styles/colors';
+@import '../../styles/fonts';
 
-.center{
-   width: fit-content;
-   margin-left: auto;
-   margin-right: auto;
+.center {
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.form{   
-   width: 80%;
-   margin: 100px auto;
-   text-align: center;
+.form {
+  width: 80%;
+  margin: 100px auto;
+  text-align: center;
 
-   .form__input{
-      width: 80%;
-      padding: 10px 25px;
-      border-radius: 50px;
-      background-color:$color-blank-white;
-      color: $color-gray;
-      font-family: 'Ubuntu';
+  .form__input {
+    @include font-Ubuntu;
+
+    width: 80%;
+    padding: 10px 25px;
+    border-radius: 50px;
+    background-color: $color-blank-white;
+    color: $color-gray;
+    font-size: 1rem;
+    border: none;
+    margin-bottom: 80px;
+
+    &::placeholder {
+      @include font-Ubuntu;
       font-size: 1rem;
-      border:none;
-      margin-bottom: 80px;
+    }
 
-      &::placeholder{
-         font-family: 'Ubuntu';
-         font-size: 1rem;
-      }
-
-      &:focus{
-         outline: none;
-      }
-   }
+    &:focus {
+      outline: none;
+    }
+  }
 }
