@@ -11,7 +11,7 @@ class Skills extends Component {
 
   render() {
     return (
-      <div className="skills">
+      <div className="skills" id="skills">
         <SectionTitle text="skills" />
         <SkillsList />
       </div>

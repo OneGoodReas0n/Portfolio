@@ -11,7 +11,7 @@ class Projects extends Component {
 
   render() {
     return (
-      <div className="projects">
+      <div className="projects" id="projects">
         <SectionTitle text="projects" />
         <ProjectsList />
       </div>

@@ -12,6 +12,20 @@ class App extends Component {
     this.state = {};
   }
 
+  componentDidMount() {
+    addEventListener('scroll', () => {
+      const height = window.pageYOffset;
+      if (height > window.innerHeight * 1.6 && height < window.innerHeight * 2.4) {
+        const skills = document.getElementById('skills-list');
+        skills.classList.add('animate');
+      }
+      if (height > window.innerHeight * 2.6) {
+        const projects = document.getElementById('projects-list');
+        projects.classList.add('animate');
+      }
+    });
+  }
+
   render() {
     return (
       <div className="app">
