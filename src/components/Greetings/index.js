@@ -5,12 +5,12 @@ import Btn from '../Btn';
 const Greetings = () => {
   return (
     <div className="greetings">
-      <p>
+      <p className="greetings__body">
         <span className="greetings__text greetings__text_primary">
           Hi, I&apos;m Reason.
         </span>
       </p>
-      <p>
+      <p className="greetings__body">
         <span className="greetings__text greetings__text_secondary">
           I am Junior Javascript Developer.
         </span>

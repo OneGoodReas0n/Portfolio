@@ -10,7 +10,12 @@ const skills = [
   {
     id: 1,
     title: 'Frontend',
-    features: ['HTML5', 'CSS3 | SASS | BEM', 'Javascript', 'React | Redux'],
+    features: [
+      'HTML5',
+      'CSS3 | SASS | BEM',
+      'Javascript | Typescript',
+      'React | Redux',
+    ],
     icon: frontendSvg,
   },
   {
@@ -35,7 +40,7 @@ const skills = [
 
 const SkillsList = () => {
   return (
-    <div className="skills-list">
+    <div className="skills-list" id="skills-list">
       {skills.map(({ id, title, features, icon }) => {
         return <SkillsItem key={id} title={title} features={features} icon={icon} />;
       })}

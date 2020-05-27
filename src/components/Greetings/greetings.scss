@@ -8,21 +8,24 @@
     user-select: none;
   }
 
-  .greetings__text_primary {
-    @include font-PT_Sans;
-    font-size: 3.2rem;
-    font-weight: normal;
-  }
+  .greetings__body {
+    margin-top: 20px;
+    .greetings__text_primary {
+      @include font-PT_Sans;
+      font-size: 3.2rem;
+      font-weight: normal;
+    }
 
-  .greetings__text_secondary {
-    @include font-Ubuntu;
-    font-size: 1.8rem;
-    font-weight: lighter;
-    letter-spacing: 1px;
+    .greetings__text_secondary {
+      @include font-Ubuntu;
+      font-size: 1.8rem;
+      font-weight: lighter;
+      letter-spacing: 1px;
+    }
   }
 
   .greetings__group {
     display: flex;
-    margin-top: 40px;
+    margin-top: 50px;
   }
 }

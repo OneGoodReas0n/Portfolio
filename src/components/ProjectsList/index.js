@@ -13,7 +13,7 @@ const projects = [
 
 const ProjectsList = () => {
   return (
-    <div className="projects-list">
+    <div className="projects-list" id="projects-list">
       {projects.map(({ id, title, icon }) => {
         return <ProjectItem key={id} title={title} icon={icon} />;
       })}
