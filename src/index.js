@@ -4,5 +4,4 @@ import './styles/style.scss';
 import './styles/normalize.scss';
 import App from './containers/App';
 
-const wrapper = document.getElementById('main');
-ReactDOM.render(<App />, wrapper);
+ReactDOM.render(<App />, document.getElementById('main'));

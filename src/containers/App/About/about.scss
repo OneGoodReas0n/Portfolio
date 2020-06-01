@@ -1,23 +1,33 @@
 @import '../../../styles/colors';
 
-.about {
-  min-height: 100vh;
-  box-sizing: border-box;
-  padding: 80px 0;
+.section-about {
   background-color: $color-primary;
 
-  .about__body {
+  .section-inner {
     width: 60%;
-    margin: 60px auto;
+    min-height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
   }
 
-  .about__text {
-    text-align: start;
-    font-family: 'Ubuntu';
-    font-size: 1.8rem;
-    font-weight: 300;
-    color: $color-blank-white;
-    line-height: 2.4rem;
+  &-content {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    margin-bottom: 140px;
+  }
+
+  &-wrapper {
+    &__text {
+      margin-bottom: 40px;
+      text-align: start;
+      font-family: 'Ubuntu';
+      font-size: 1.8rem;
+      font-weight: 300;
+      color: $color-blank-white;
+      line-height: 2.4rem;
+    }
   }
 
   .purple {

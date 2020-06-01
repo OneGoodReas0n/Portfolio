@@ -4,19 +4,20 @@ import Navbar from '../../../components/Navbar';
 import Greetings from '../../../components/Greetings';
 
 class Home extends Component {
-  constructor() {
-    super();
-    this.state = {};
-  }
+   constructor() {
+      super();
+   }
 
-  render() {
-    return (
-      <div className="home">
-        <Navbar />
-        <Greetings />
-      </div>
-    );
-  }
+   render() {
+      return (
+         <section className="section-outer section-home" id="home">
+            <Navbar />
+            <div className="section-inner">
+               <Greetings />
+            </div>
+         </section>
+      );
+   }
 }
 
 export default Home;

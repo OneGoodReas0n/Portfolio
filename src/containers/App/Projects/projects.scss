@@ -1,13 +1,13 @@
-.projects {
-  width: 100%;
-  min-height: 100vh;
-  box-sizing: border-box;
-  padding: 80px 0;
-  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url('../../../assets/images/portfolio_bg.jpg');
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  background-color: #020202;
+.section-projects {
+   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      url('../../../assets/images/portfolio_bg.jpg') no-repeat 50% 50%;
+   background-attachment: fixed;
+   background-size: cover;
+   overflow: hidden;
+
+   .section-inner {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+   }
 }

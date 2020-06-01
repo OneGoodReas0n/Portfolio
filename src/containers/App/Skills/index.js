@@ -4,19 +4,20 @@ import SectionTitle from '../../../components/SectionTitle';
 import SkillsList from '../../../components/SkillsList';
 
 class Skills extends Component {
-  constructor() {
-    super();
-    this.state = {};
-  }
+   constructor() {
+      super();
+   }
 
-  render() {
-    return (
-      <div className="skills" id="skills">
-        <SectionTitle text="skills" />
-        <SkillsList />
-      </div>
-    );
-  }
+   render() {
+      return (
+         <section className="section-outer section-skills" id="skills">
+            <div className="section-inner">
+               <SectionTitle text="skills" />
+               <SkillsList />
+            </div>
+         </section>
+      );
+   }
 }
 
 export default Skills;
