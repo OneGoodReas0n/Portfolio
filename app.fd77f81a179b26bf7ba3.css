@@ -3,7 +3,7 @@
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}main{display:block}h1{font-size:2em;margin:0.67em 0}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace, monospace;font-size:1em}a{background-color:transparent}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace, monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-0.25em}sup{top:-0.5em}img{border-style:none}button,input,optgroup,select,textarea{font-family:inherit;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}button,[type='button'],[type='reset'],[type='submit']{-webkit-appearance:button}button::-moz-focus-inner,[type='button']::-moz-focus-inner,[type='reset']::-moz-focus-inner,[type='submit']::-moz-focus-inner{border-style:none;padding:0}button:-moz-focusring,[type='button']:-moz-focusring,[type='reset']:-moz-focusring,[type='submit']:-moz-focusring{outline:1px dotted ButtonText}fieldset{padding:0.35em 0.75em 0.625em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{vertical-align:baseline}textarea{overflow:auto}[type='checkbox'],[type='radio']{box-sizing:border-box;padding:0}[type='number']::-webkit-inner-spin-button,[type='number']::-webkit-outer-spin-button{height:auto}[type='search']{-webkit-appearance:textfield;outline-offset:-2px}[type='search']::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details{display:block}summary{display:list-item}template{display:none}[hidden]{display:none}
 
 
-.section-home{position:relative;background:linear-gradient(rgba(0,0,0,0.25), rgba(0,0,0,0.25)),url(assets/18445010ca3a1314ce18affc1c624ae4.jpg) no-repeat 50% 50%;background-size:cover}.section-home .section-inner{min-height:100vh;display:flex;flex-direction:column}
+.section-home{position:relative;background:linear-gradient(rgba(0,0,0,0.25), rgba(0,0,0,0.25)),url(./assets/18445010ca3a1314ce18affc1c624ae4.jpg) no-repeat 50% 50%;background-size:cover}.section-home .section-inner{min-height:100vh;display:flex;flex-direction:column}
 
 .navbar{position:fixed;width:100%;z-index:100;background-color:rgba(0,0,0,0.9)}.navbar-wrapper{display:flex;justify-content:space-between;align-items:center;width:1180px;margin:0 auto;padding:16px 0}
 
@@ -23,13 +23,13 @@
 
 .sectionTitle{padding-top:80px;flex-shrink:1;text-align:center}.sectionTitle .sectionTitle__text{font-family:'Ubuntu', sans-serif;color:#EFEFED;font-size:2.4rem;text-transform:uppercase;font-weight:normal}
 
-.section-skills{background:linear-gradient(rgba(0,0,0,0.87), rgba(0,0,0,0.87)),url(assets/85588aed634366aae95fae724d10e2c0.jpg) no-repeat 50% 50%;background-attachment:fixed;background-size:cover}.section-skills .section-inner{min-height:100vh}
+.section-skills{background:linear-gradient(rgba(0,0,0,0.87), rgba(0,0,0,0.87)),url(./assets/85588aed634366aae95fae724d10e2c0.jpg) no-repeat 50% 50%;background-attachment:fixed;background-size:cover}.section-skills .section-inner{min-height:100vh}
 
 .skills-list{flex-grow:1;display:flex;justify-content:space-between;margin-top:80px;opacity:0}
 
 .skills-item{padding:20px;min-width:20%;font-family:'Ubuntu', sans-serif;text-align:center;transition:all 0.3s ease-in-out}.skills-item:hover{transition:transform 0.5s ease-in-out;transform:translateY(-20px) scale(1.1)}.skills-item__icon{height:130px}.skills-item__title{margin:15px 0 20px 0;color:#EFEFED;font-size:1.6rem;font-weight:500}.skills-item__feature{color:#EFEFED;font-size:1rem;font-weight:lighter}
 
-.section-projects{background:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url(assets/b646f119b1324eda12be864785b82685.jpg) no-repeat 50% 50%;background-attachment:fixed;background-size:cover;overflow:hidden}.section-projects .section-inner{min-height:100vh;display:flex;flex-direction:column}
+.section-projects{background:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url(./assets/b646f119b1324eda12be864785b82685.jpg) no-repeat 50% 50%;background-attachment:fixed;background-size:cover;overflow:hidden}.section-projects .section-inner{min-height:100vh;display:flex;flex-direction:column}
 
 .projects-list{flex-grow:1;display:flex;justify-content:space-between;margin-top:100px;opacity:0}
 
