@@ -1,12 +1,10 @@
 const path = require('path');
-const HtmlWebPackPlugin = require('html-webpack-plugin');
+const { CleanWebpackPlugin } = require('clean-webpack-plugin');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
-   entry: './src/index.js',
-
-   output: {
-      path: path.resolve(__dirname, 'dist'),
-      filename: 'build.js',
+   entry: {
+      app: './src/index.js',
    },
 
    module: {
@@ -41,6 +39,9 @@ module.exports = {
             use: [
                {
                   loader: 'file-loader',
+                  options: {
+                     outputPath: './assets',
+                  },
                },
             ],
          },
@@ -48,9 +49,10 @@ module.exports = {
    },
 
    plugins: [
-      new HtmlWebPackPlugin({
+      new CleanWebpackPlugin(),
+      new HtmlWebpackPlugin({
+         title: 'Portfolio',
          template: './src/index.html',
-         filename: './index.html',
       }),
    ],
 };
