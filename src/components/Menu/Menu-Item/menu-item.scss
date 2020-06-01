@@ -2,19 +2,32 @@
 @import '../../../styles/fonts';
 
 .menu__item {
+  position: relative;
   @include font-Ubuntu;
   color: $color-blank-white;
   font-size: 1.2rem;
   font-weight: 300;
   margin-left: 25px;
   cursor: pointer;
-  opacity: 0.7;
+  opacity: 0.9;
+  text-decoration: none;
+
+  &::after {
+    content: '';
+    position: absolute;
+    top: 30px;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background-color: $color-blank-white;
+    transition: all 0.5s;
+  }
 
   &:hover {
-    opacity: 0.9;
+    opacity: 1;
   }
-}
 
-.active {
-  opacity: 1;
+  &:hover.menu__item::after {
+    width: 100%;
+  }
 }

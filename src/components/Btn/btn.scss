@@ -2,36 +2,43 @@
 @import '../../styles/fonts';
 
 .btn {
-  display: flex;
-  align-items: center;
-  width: fit-content;
-  padding: 8px 77px;
-  border-radius: 25px;
-  cursor: pointer;
-  opacity: 0.9;
+   flex: 1;
+   padding-right: 20px;
 
-  &:not(:first-child) {
-    margin-left: 30px;
-  }
+   button {
+      width: 100%;
+      padding: 10px 20px;
+      border: none;
+      outline: none;
+      @include font-Ubuntu;
+      font-size: 0.9rem;
+      text-transform: uppercase;
+      cursor: pointer;
+      opacity: 0.9;
+      border-radius: 4px;
 
-  &:hover {
-    opacity: 1;
-  }
+      &:hover {
+         opacity: 1;
+      }
+   }
 
-  span {
-    @include font-Ubuntu;
-    font-weight: 400;
-    font-size: 0.9rem;
-    text-transform: uppercase;
-  }
-}
+   .round {
+      border-radius: 25px;
+   }
 
-.btn-primary {
-  color: $color-gray;
-  background-color: $color-blank-white;
-}
+   .btn-primary {
+      color: $color-gray;
+      background-color: $color-blank-white;
+   }
 
-.btn-secondary {
-  color: $color-blank-white;
-  border: 2px solid $color-blank-white;
+   .btn-secondary {
+      color: $color-blank-white;
+      border: 2px solid $color-blank-white;
+      background-color: transparent;
+   }
+
+   .btn-square {
+      color: $color-gray;
+      background-color: $color-blank-white;
+   }
 }

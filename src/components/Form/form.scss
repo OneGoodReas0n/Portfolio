@@ -8,29 +8,31 @@
 }
 
 .form {
-  width: 80%;
-  margin: 100px auto;
-  text-align: center;
+  padding: 80px 0;
+  display: flex;
+  justify-content: center;
 
-  .form__input {
-    @include font-Ubuntu;
+  &__input {
+    padding-bottom: 80px;
 
-    width: 80%;
-    padding: 10px 25px;
-    border-radius: 50px;
-    background-color: $color-blank-white;
-    color: $color-gray;
-    font-size: 1rem;
-    border: none;
-    margin-bottom: 80px;
-
-    &::placeholder {
+    input {
+      margin: 0;
+      padding: 10px 20px;
+      border-radius: 4px;
       @include font-Ubuntu;
+      color: $color-gray;
       font-size: 1rem;
-    }
-
-    &:focus {
+      border: none;
       outline: none;
+
+      &::placeholder {
+        @include font-Ubuntu;
+        font-size: 1rem;
+      }
+
+      &:focus {
+        outline: none;
+      }
     }
   }
 }

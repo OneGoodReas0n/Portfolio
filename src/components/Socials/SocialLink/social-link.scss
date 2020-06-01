@@ -1,13 +1,15 @@
-.socials__item{
-   width: 28px;
-   opacity: 0.8;
-   cursor: pointer;
+.socials__item {
+  cursor: pointer;
+  opacity: 0.8;
+  img {
+    width: 28px;
+  }
 
-   &:hover{
-      opacity: 1;
-   }
+  &:hover {
+    opacity: 1;
+  }
 
-   &:not(:first-child){
-      margin-left: 20px;
-   }
+  &:not(:first-child) {
+    margin-left: 15px;
+  }
 }

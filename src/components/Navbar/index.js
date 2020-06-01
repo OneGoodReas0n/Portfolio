@@ -4,19 +4,21 @@ import Menu from '../Menu';
 import Socials from '../Socials';
 
 class Navbar extends React.Component {
-  constructor() {
-    super();
-    this.state = {};
-  }
+   constructor() {
+      super();
+      this.state = {};
+   }
 
-  render() {
-    return (
-      <div className="navbar">
-        <Menu />
-        <Socials />
-      </div>
-    );
-  }
+   render() {
+      return (
+         <div className="navbar">
+            <div className="navbar-wrapper">
+               <Menu />
+               <Socials />
+            </div>
+         </div>
+      );
+   }
 }
 
 export default Navbar;

@@ -2,30 +2,39 @@
 @import '../../styles/fonts';
 
 .greetings {
-  margin: 180px 0 0 120px;
-  .greetings__text {
-    color: $color-blank-white;
-    user-select: none;
-  }
+  flex-grow: 1;
+  color: $color-blank-white;
+  display: flex;
+  align-items: center;
 
-  .greetings__body {
-    margin-top: 20px;
-    .greetings__text_primary {
-      @include font-PT_Sans;
+  .greetings-wrapper {
+    padding-bottom: 60px;
+    &__title {
       font-size: 3.2rem;
-      font-weight: normal;
+      line-height: 4rem;
+      margin-bottom: 10px;
     }
 
-    .greetings__text_secondary {
-      @include font-Ubuntu;
+    &__subtitle {
       font-size: 1.8rem;
-      font-weight: lighter;
+      line-height: 2.4rem;
       letter-spacing: 1px;
     }
-  }
 
-  .greetings__group {
-    display: flex;
-    margin-top: 50px;
+    &__group {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 50px;
+    }
   }
+}
+
+.text_primary {
+  @include font-PT_Sans;
+  font-weight: normal;
+}
+
+.text_secondary {
+  @include font-Ubuntu;
+  font-weight: lighter;
 }
