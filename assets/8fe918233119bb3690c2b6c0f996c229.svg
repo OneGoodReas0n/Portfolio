@@ -1,0 +1,24 @@
+<svg width="165" height="130" viewBox="0 0 165 130" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="33.1196" width="127.152" height="25.1938" rx="12.5969" fill="#EFEFED"/>
+<rect x="33.1196" y="52.0443" width="127.152" height="25.1938" rx="12.5969" fill="#EFEFED"/>
+<rect x="33.1196" y="104.088" width="127.152" height="25.1938" rx="12.5969" fill="#EFEFED"/>
+<line x1="1" y1="64.4147" x2="53.9801" y2="64.4147" stroke="#EFEFED" stroke-width="5"/>
+<path d="M62.4569 12.4962H9.77472C6.09894 12.4962 3.11914 15.476 3.11914 19.1517V110.647C3.11914 114.323 6.09894 117.302 9.77471 117.302H62.4569" stroke="#EFEFED" stroke-width="5"/>
+<rect x="37.1196" width="127.152" height="25.1938" rx="12.5969" fill="#E6E6E6" fill-opacity="0.6"/>
+<rect x="37.1196" y="52.0443" width="127.152" height="25.1938" rx="12.5969" fill="#E6E6E6" fill-opacity="0.6"/>
+<rect x="37.1196" y="104.088" width="127.152" height="25.1938" rx="12.5969" fill="#E6E6E6" fill-opacity="0.6"/>
+<line x1="5" y1="64.4147" x2="57.9801" y2="64.4147" stroke="#E6E6E6" stroke-opacity="0.6" stroke-width="5"/>
+<path d="M66.4569 12.4962H13.7747C10.0989 12.4962 7.11914 15.476 7.11914 19.1517V110.647C7.11914 114.323 10.0989 117.302 13.7747 117.302H66.4569" stroke="#E6E6E6" stroke-opacity="0.6" stroke-width="5"/>
+<ellipse cx="55.298" cy="12.4962" rx="5.29801" ry="5.03876" fill="#060606" fill-opacity="0.6"/>
+<ellipse cx="55.298" cy="64.8992" rx="5.29801" ry="5.03876" fill="#060606" fill-opacity="0.6"/>
+<ellipse cx="55.298" cy="117.302" rx="5.29801" ry="5.03876" fill="#060606" fill-opacity="0.6"/>
+<ellipse cx="76.4899" cy="12.4962" rx="5.29801" ry="5.03876" fill="#060606" fill-opacity="0.6"/>
+<ellipse cx="76.4899" cy="64.8992" rx="5.29801" ry="5.03876" fill="#060606" fill-opacity="0.6"/>
+<ellipse cx="76.4899" cy="117.302" rx="5.29801" ry="5.03876" fill="#060606" fill-opacity="0.6"/>
+<ellipse cx="51.861" cy="12.4962" rx="5.29801" ry="5.03876" fill="#060606"/>
+<ellipse cx="51.861" cy="64.8992" rx="5.29801" ry="5.03876" fill="#060606"/>
+<ellipse cx="51.861" cy="117.302" rx="5.29801" ry="5.03876" fill="#060606"/>
+<ellipse cx="73.0529" cy="12.4962" rx="5.29801" ry="5.03876" fill="#060606"/>
+<ellipse cx="73.0529" cy="64.8992" rx="5.29801" ry="5.03876" fill="#060606"/>
+<ellipse cx="73.0529" cy="117.302" rx="5.29801" ry="5.03876" fill="#060606"/>
+</svg>
