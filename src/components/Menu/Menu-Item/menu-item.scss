@@ -1,0 +1,48 @@
+@import '../../../styles/colors';
+@import '../../../styles/fonts';
+@import '../../../styles/variables';
+
+.menu__item {
+   position: initial;
+   display: block;
+   margin-left: 0;
+   margin-bottom: 0.6em;
+   @include font-Ubuntu;
+   font-weight: 300;
+   color: $color-blank-white;
+   cursor: pointer;
+   opacity: 0.9;
+   text-decoration: none;
+
+   @media (min-width: $screen-md) {
+      position: relative;
+      font-size: 1.2rem;
+      margin-left: 25px;
+      margin-bottom: 0;
+   }
+
+   @media (min-width: $screen-sm) {
+      font-size: 1.2rem;
+   }
+
+   &::after {
+      @media (min-width: $screen-md) {
+         content: '';
+         position: absolute;
+         top: 30px;
+         left: 0;
+         width: 0%;
+         height: 2px;
+         background-color: $color-blank-white;
+         transition: all 0.5s;
+      }
+   }
+
+   &:hover {
+      opacity: 1;
+   }
+
+   &:hover.menu__item::after {
+      width: 100%;
+   }
+}

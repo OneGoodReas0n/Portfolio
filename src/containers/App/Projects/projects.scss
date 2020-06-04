@@ -1,0 +1,11 @@
+.section-projects {
+   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)),
+      url('../../../assets/images/portfolio_bg.jpg') no-repeat 50% 50%;
+   background-attachment: fixed;
+   background-size: cover;
+   overflow: hidden;
+
+   .section-inner {
+      min-height: 80vh;
+   }
+}

@@ -1,0 +1,22 @@
+@import '../../styles/colors';
+@import '../../styles/variables';
+
+.collapsed-menu {
+   display: block;
+   cursor: pointer;
+   @media (min-width: $screen-sm-max) {
+      display: none;
+   }
+
+   ul {
+      margin: 0;
+      padding: 0;
+      li {
+         display: block;
+         width: 20px;
+         height: 2px;
+         margin-bottom: 5px;
+         background-color: $color-blank-white;
+      }
+   }
+}

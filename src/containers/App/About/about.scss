@@ -1,0 +1,13 @@
+@import '../../../styles/colors';
+@import '../../../styles/variables.scss';
+
+.section-about {
+   background-color: $color-primary;
+
+   .section-inner {
+      @media (min-width: $screen-lg) {
+         width: 75%;
+         margin: 0 auto;
+      }
+   }
+}

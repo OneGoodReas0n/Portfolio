@@ -1,0 +1,49 @@
+@import '../../styles/colors';
+@import '../../styles/fonts';
+@import '../../styles/variables';
+
+.btn {
+   flex: 1;
+
+   @media (min-width: $screen-sm) {
+      padding-right: 20px;
+   }
+
+   button {
+      width: 100%;
+      padding: 15px 20px;
+      border: none;
+      outline: none;
+      @include font-Ubuntu;
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      cursor: pointer;
+      opacity: 0.9;
+      border-radius: 4px;
+      margin-top: 20px;
+
+      &:hover {
+         opacity: 1;
+      }
+   }
+
+   .round {
+      border-radius: 25px;
+   }
+
+   .btn-primary {
+      color: $color-gray;
+      background-color: $color-blank-white;
+   }
+
+   .btn-secondary {
+      color: $color-blank-white;
+      border: 2px solid $color-blank-white;
+      background-color: transparent;
+   }
+
+   .btn-square {
+      color: $color-gray;
+      background-color: $color-blank-white;
+   }
+}
