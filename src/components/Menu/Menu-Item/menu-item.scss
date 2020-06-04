@@ -1,33 +1,48 @@
 @import '../../../styles/colors';
 @import '../../../styles/fonts';
+@import '../../../styles/variables';
 
 .menu__item {
-  position: relative;
-  @include font-Ubuntu;
-  color: $color-blank-white;
-  font-size: 1.2rem;
-  font-weight: 300;
-  margin-left: 25px;
-  cursor: pointer;
-  opacity: 0.9;
-  text-decoration: none;
+   position: initial;
+   display: block;
+   margin-left: 0;
+   margin-bottom: 0.6em;
+   @include font-Ubuntu;
+   font-weight: 300;
+   color: $color-blank-white;
+   cursor: pointer;
+   opacity: 0.9;
+   text-decoration: none;
 
-  &::after {
-    content: '';
-    position: absolute;
-    top: 30px;
-    left: 0;
-    width: 0%;
-    height: 2px;
-    background-color: $color-blank-white;
-    transition: all 0.5s;
-  }
+   @media (min-width: $screen-md) {
+      position: relative;
+      font-size: 1.2rem;
+      margin-left: 25px;
+      margin-bottom: 0;
+   }
 
-  &:hover {
-    opacity: 1;
-  }
+   @media (min-width: $screen-sm) {
+      font-size: 1.2rem;
+   }
 
-  &:hover.menu__item::after {
-    width: 100%;
-  }
+   &::after {
+      @media (min-width: $screen-md) {
+         content: '';
+         position: absolute;
+         top: 30px;
+         left: 0;
+         width: 0%;
+         height: 2px;
+         background-color: $color-blank-white;
+         transition: all 0.5s;
+      }
+   }
+
+   &:hover {
+      opacity: 1;
+   }
+
+   &:hover.menu__item::after {
+      width: 100%;
+   }
 }

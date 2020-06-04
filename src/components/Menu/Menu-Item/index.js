@@ -5,7 +5,14 @@ import PropTypes from 'prop-types';
 const MenuItem = ({ title }) => {
    const id = String(title).toLowerCase();
    return (
-      <a href={`#${id}`} className="menu__item active">
+      <a
+         href={`#${id}`}
+         className="menu__item active"
+         onClick={() => {
+            const menu = document.getElementById('menu');
+            menu.classList.toggle('open');
+         }}
+      >
          {title}
       </a>
    );

@@ -24,7 +24,14 @@ const Greetings = () => {
                      });
                   }}
                />
-               <Btn type="secondary" round="true" text="get in touch" />
+               <Btn
+                  type="secondary"
+                  round="true"
+                  text="get in touch"
+                  handler={() => {
+                     window.open('mailto:korobovi4@gmail.com');
+                  }}
+               />
             </div>
          </div>
       </div>

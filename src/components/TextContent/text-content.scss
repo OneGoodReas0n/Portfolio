@@ -1,0 +1,33 @@
+@import '../../styles/variables.scss';
+@import '../../styles/colors.scss';
+@import '../../styles/fonts.scss';
+
+.text {
+   &-content {
+      flex-grow: 1;
+      display: flex;
+      align-items: center;
+      margin-bottom: 50px;
+
+      @media (min-width: $screen-md) {
+         margin-bottom: 80px;
+      }
+   }
+
+   &-wrapper {
+      &__text {
+         margin-bottom: 40px;
+         text-align: start;
+         font-family: 'Ubuntu';
+         font-size: 1.4rem;
+         font-weight: 300;
+         color: $color-blank-white;
+         line-height: 2.2rem;
+
+         @media (min-width: $screen-md) {
+            font-size: 2rem;
+            line-height: 2.8rem;
+         }
+      }
+   }
+}

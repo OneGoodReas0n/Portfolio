@@ -2,16 +2,16 @@ import React from 'react';
 import './section-title.scss';
 import PropTypes from 'prop-types';
 
-const SectionTitle = ({ text }) => {
+const SectionTitle = ({ title }) => {
    return (
       <div className="sectionTitle">
-         <span className="sectionTitle__text"> {text}</span>
+         <span className="sectionTitle__text"> {title}</span>
       </div>
    );
 };
 
 SectionTitle.propTypes = {
-   text: PropTypes.string.isRequired,
+   title: PropTypes.string.isRequired,
 };
 
 export default SectionTitle;

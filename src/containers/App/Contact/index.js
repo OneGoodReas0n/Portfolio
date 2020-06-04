@@ -13,7 +13,7 @@ class Contact extends Component {
       return (
          <section className="section-outer section-contact">
             <div className="section-inner" id="contact">
-               <SectionTitle text="contact me" />
+               <SectionTitle title="contact me" />
                <Form />
                <Footer />
             </div>

@@ -11,7 +11,7 @@ const items = [
 
 const Menu = () => {
    return (
-      <div className="menu">
+      <div className="menu" id="menu">
          <ul>
             {items.map(({ id, title }) => {
                return (

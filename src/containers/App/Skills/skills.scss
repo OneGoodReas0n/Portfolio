@@ -1,10 +1,10 @@
 .section-skills {
-  background: linear-gradient(rgba(0, 0, 0, 0.87), rgba(0, 0, 0, 0.87)),
-    url('../../../assets/images/skills.jpg') no-repeat 50% 50%;
-  background-attachment: fixed;
-  background-size: cover;
+   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.87)),
+      url('../../../assets/images/skills.jpg') no-repeat 50% 50%;
+   background-attachment: fixed;
+   background-size: cover;
 
-  .section-inner {
-    min-height: 100vh;
-  }
+   .section-inner {
+      min-height: initial;
+   }
 }

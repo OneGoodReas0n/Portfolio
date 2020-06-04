@@ -1,44 +1,13 @@
 @import '../../../styles/colors';
+@import '../../../styles/variables.scss';
 
 .section-about {
-  background-color: $color-primary;
+   background-color: $color-primary;
 
-  .section-inner {
-    width: 60%;
-    min-height: 100vh;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-  }
-
-  &-content {
-    flex-grow: 1;
-    display: flex;
-    align-items: center;
-    margin-bottom: 140px;
-  }
-
-  &-wrapper {
-    &__text {
-      margin-bottom: 40px;
-      text-align: start;
-      font-family: 'Ubuntu';
-      font-size: 1.8rem;
-      font-weight: 300;
-      color: $color-blank-white;
-      line-height: 2.4rem;
-    }
-  }
-
-  .purple {
-    color: $color-peach;
-  }
-
-  .dark-blue {
-    color: $color-dark-blue;
-  }
-
-  .light-blue {
-    color: $color-light-blue;
-  }
+   .section-inner {
+      @media (min-width: $screen-lg) {
+         width: 75%;
+         margin: 0 auto;
+      }
+   }
 }

@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
-import './app.scss';
+import '../../styles/style.scss';
+import '../../styles/fonts.scss';
+import '../../styles/variables.scss';
 import Home from './Home';
 import About from './About';
 import Skills from './Skills';
